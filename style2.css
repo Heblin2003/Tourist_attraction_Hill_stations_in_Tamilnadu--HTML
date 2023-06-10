@@ -1,0 +1,86 @@
+.img {
+    background-image: url("kimages/kodaikanal.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.img a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.about pre {
+    margin: 50px 50px 50px 50px;
+    font-size: medium;
+}
+
+.about .c1 {
+
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+.about .c2 {
+    border-bottom: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.to-see h1 {
+    margin: 50px 40px;
+    text-align: center;
+}
+
+.to-see .c1,
+.to-see .c2 {
+
+    margin-left: 60px;
+    margin-bottom: 40px;
+    padding-left: 0;
+    border: 2px solid black;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.to-see {
+    border-bottom: 2px solid black;
+}
+
+.to-do h1 {
+    margin: 50px 40px;
+    text-align: center;
+}
+
+
+.card {
+    margin-bottom: 80px;
+    margin-left: 10px;
+    height: 400px;
+    width: 240px;
+    border: 20px solid black;
+    box-shadow: 0 2px 4px 0;
+}
+
+.to-do {
+    border-bottom: 2px solid black;
+}
+
+.when-where-how .c1 {
+    padding-left: 0;
+    margin: 10px 200px;
+    border: 2px solid black;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.when-where-how h1 {
+    margin: 50px 40px;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
